@@ -356,6 +356,9 @@
     <localInspection language="go" displayName="Invalid anonymous field definition type " groupPath="Go"
                      groupName="General" enabledByDefault="true" level="ERROR"
                      implementationClass="com.goide.inspections.GoAnonymousFieldDefinitionTypeInspection"/>
+    <localInspection language="go" displayName="GoMaxProcs max is 256 " groupPath="Go"
+                     groupName="General" enabledByDefault="true" level="WARNING"
+                     implementationClass="com.goide.inspections.GoMaxProcsInspection"/>
     <localInspection language="go" displayName="Mixed named and unnamed parameters" groupPath="Go"
                      groupName="General" enabledByDefault="true" level="ERROR"
                      implementationClass="com.goide.inspections.GoMixedNamedUnnamedParametersInspection"/>
